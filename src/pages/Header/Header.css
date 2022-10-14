@@ -1,0 +1,22 @@
+#header_main {
+    background-color: #343C97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    color: white;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+#nav_main {
+    display: flex;
+    align-items: center;
+}
+.nav_links {
+    text-decoration: none;
+    color: white;
+    margin-left:20px;
+}
