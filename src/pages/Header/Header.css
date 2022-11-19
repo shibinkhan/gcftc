@@ -1,18 +1,13 @@
 #header_main {
     background-color: #343C97;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 75px;
     color: white;
 }
 #header {
-    display: flex;
-    justify-content: space-between;
-    width: 1200px;
 }
 #nav_main {
     display: flex;
+    justify-content: end;
     align-items: center;
 }
 .nav_links {

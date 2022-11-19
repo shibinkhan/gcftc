@@ -1,0 +1,13 @@
+.service-card {
+    transition: 0.5s;
+    border: none;
+    border-radius: 10px;
+    /* background-color: rgba(28, 15, 118, 0.318); */
+}
+.service-card:hover {
+    transform: scale(1.05);
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

@@ -4,12 +4,14 @@ import Header from './pages/Header/Header.js';
 import Home from './pages/Home/Home.js';
 import Footer from './pages/Footer/Footer.js';
 import NotFound from './pages/NotFound/NotFound.js';
+import WebDevelopment from './pages/Services/AllService/WebDevelopment';
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/webDev" element={<WebDevelopment />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

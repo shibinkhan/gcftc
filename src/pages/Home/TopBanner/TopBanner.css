@@ -1,20 +1,14 @@
 .banner-main {
-    display: flex;
-    justify-content: center;
     margin: 50px 0;
 }
 .banner {
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 .banner-left {
-    width: 550px;
+
 }
 .banner-left-title {
     font-size: 50px;
-    margin-right: 50px;
 
 }
 .banner-left-button {
@@ -37,7 +31,6 @@
     color: #343C97;
 }
 .banner-img {
-    width: 480px;
     transition: 0.7s;
 }
 .banner-img:hover {
