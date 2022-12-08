@@ -4,7 +4,7 @@ import Header from './pages/Header/Header.js';
 import Home from './pages/Home/Home.js';
 import Footer from './pages/Footer/Footer.js';
 import NotFound from './pages/NotFound/NotFound.js';
-import WebDevelopment from './pages/Services/AllService/WebDevelopment';
+import WebDevelopment from './pages/Services/AllService/WebDevelopment/WebDevelopment';
 import SignIn from './pages/Firebase/Login/SignIn';
 
 function App() {
