@@ -1,3 +1,28 @@
+.service-main {
+    background-color: rgb(240, 240, 240);
+}
+.service-title {
+    border-bottom: 5px solid rgb(214, 214, 214);
+    padding-bottom: 10px;
+    width: 450px;
+}
+.see-details-btn {
+    color: white;
+    text-decoration: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: #343C97;
+    transition: 0.5s;
+    font-weight: 500;
+}
+.see-details-btn:hover {
+    /* padding: 5px 18px; */
+    background-color: transparent;
+    border: 2px solid #343C97;
+    color: #343C97;
+}
+
 .service-card {
     transition: 0.5s;
     border: none;
@@ -10,4 +35,8 @@
 .card-img-top {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+.card-title {
+    color: #343C97;
+    font-weight: 700;
 }

@@ -9,8 +9,8 @@ function Footer() {
                     <div className='col-md-4'>
                         <h3>GCFTC</h3>
                         <p>Mridha Bari Road, Upozila Gate, Gournadi, Barishal.</p>
-                        <p>Official: khanshibin500@gmail.com</p>
-                        <p>Helpline: 01971134573, 01862471955</p>
+                        <p>Email: gcaftc@gmail.com</p>
+                        <p>Call Now: 01718104000</p>
                         <p>Available: 10AM - 10PM</p>
                     </div>
                     <div className='col-md-4'>
@@ -21,7 +21,16 @@ function Footer() {
                         <p>About us</p>
                     </div>
                     <div className='col-md-4'>
-                        <h4>Social Media Link</h4>
+                        <div>
+                            <h4 className='mb-4'>Social Media Links</h4>
+                            <a href="https://www.facebook.com/gctcgnd"><i class="social-icon fa-brands fa-facebook"></i></a>
+                            <i class="social-icon insta fa-brands fa-instagram"></i>
+                            <i class="social-icon fa-brands fa-youtube"></i>
+                            <i class="social-icon fa-brands fa-linkedin"></i>
+                        </div>
+                        <div className='mt-5'>
+                            <h5 className='trd-no'>Trade Licence: 000000</h5>
+                        </div>
                     </div>
                 </div>
             </div>
