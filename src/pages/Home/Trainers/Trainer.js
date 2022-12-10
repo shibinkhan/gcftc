@@ -11,23 +11,24 @@ import alAminPhoto from '../../../images/trainers/alAmin.jpeg';
 function Trainers() {
     return (
         <div className='mt-5 pt-5'>
-            <div className='d-flex justify-content-center mb-5'>
-                <h1 className='text-center ceo-founder'>CEO & Founder</h1>
-            </div>
-            <div className='trainer-main d-flex justify-content-center mb-5 pb-5'>
-                <div className='hafiz container row d-flex justify-content-between align-items-center px-0'>
-                    <div className='col-md-4 mb-5 mb-md-0'>
-                        <img src={hafizPhoto} alt="" className='hafiz-photo img-fluid ' />
-                    </div>
-                    <div className='col-md-7'>
-                        <h2 className='mb-4 fw-bold default-color'>মোঃ হাফিজুর রহমান</h2>
-                        <p className='hafiz-details mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum optio nulla voluptate officia facere debitis, reprehenderit pariatur illum laudantium corporis inventore nostrum ducimus, aliquam commodi praesentium architecto omnis a sint perferendis tempore unde ad incidunt? Minus sapiente illo mollitia. Consequuntur vitae, nam perferendis ut necessitatibus error delectus laboriosam, provident reprehenderit maiores cupiditate deserunt asperiores ducimus voluptatem animi mollitia ad repellat nobis enim! Praesentium asperiores culpa delectus! Numquam enim perferendis consectetur quisquam et modi, accusantium debitis atque repellendus unde voluptatibus aspernatur harum magni, ipsa officiis distinctio assumenda adipisci blanditiis totam non placeat, provident dolor omnis ad. Rem modi necessitatibus consequuntur.</p>
-                        <Link className='see-details-btn' to="/webDev">See Details</Link>
+            <div className='hafiz-main py-5'>
+                <div className='d-flex justify-content-center my-5'>
+                    <h1 className='text-center ceo-founder'>CEO & Founder</h1>
+                </div>
+                <div className='trainer-main d-flex justify-content-center mb-5'>
+                    <div className='hafiz container row d-flex justify-content-between align-items-center px-0'>
+                        <div className='col-md-4 mb-5 mb-md-0'>
+                            <img src={hafizPhoto} alt="" className='hafiz-photo img-fluid ' />
+                        </div>
+                        <div className='col-md-7'>
+                            <h2 className='mb-4 fw-bold default-color'>মোঃ হাফিজুর রহমান</h2>
+                            <p className='hafiz-details mb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus rerum optio nulla voluptate officia facere debitis, reprehenderit pariatur illum laudantium corporis inventore nostrum ducimus, aliquam commodi praesentium architecto omnis a sint perferendis tempore unde ad incidunt? Minus sapiente illo mollitia. Consequuntur vitae, nam perferendis ut necessitatibus error delectus laboriosam, provident reprehenderit maiores cupiditate deserunt asperiores ducimus voluptatem animi mollitia ad repellat nobis enim! Praesentium asperiores culpa delectus! Numquam enim perferendis consectetur quisquam et modi, accusantium debitis atque repellendus unde voluptatibus aspernatur harum magni, ipsa officiis distinctio assumenda adipisci blanditiis totam non placeat, provident dolor omnis ad. Rem modi necessitatibus consequuntur.</p>
+                            <Link className='see-details-btn' to="/webDev">See Details</Link>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <hr />
             {/* onnanno prosikkhok gon */}
             <div className='text-center my-5 pt-5'>
                 <h1 className='fw-bold mb-3 default-color'>অন্যান্য প্রশিক্ষকগন</h1>

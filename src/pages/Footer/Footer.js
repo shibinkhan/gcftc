@@ -6,14 +6,14 @@ function Footer() {
         <div className='footer-main'>
             <div className='footer container'>
                 <div className='footer-top row'>
-                    <div className='col-md-4'>
+                    <div className='col-md-5'>
                         <h3>GCFTC</h3>
                         <p>Mridha Bari Road, Upozila Gate, Gournadi, Barishal.</p>
                         <p>Email: gcaftc@gmail.com</p>
                         <p>Call Now: 01718104000</p>
                         <p>Available: 10AM - 10PM</p>
                     </div>
-                    <div className='col-md-4'>
+                    <div className='col-md-3'>
                         <h4>Useful Links</h4>
                         <p>Refund policy</p>
                         <p>Terms and Conditions</p>
